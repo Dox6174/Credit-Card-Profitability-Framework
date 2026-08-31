@@ -68,10 +68,7 @@ Full derivations, the correlation evidence behind each design choice, and the te
 
 ## Result
 
-| Split | Score |
-|---|---|
-| Public leaderboard | 0.9284 |
-| Private leaderboard | 0.9301 |
+Overall Score: 0.93
 
 The agreement between public and private scores reflects the framework's closed-form structure — since the score is a deterministic function of input features rather than a fitted model, it carries no risk of overfitting to the public split.
 
