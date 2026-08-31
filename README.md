@@ -9,7 +9,7 @@ Rather than fitting a black-box model to an unobserved profitability target, thi
 | File | Description |
 |---|---|
 | [`Credit_Card_Profitability_Framework_Report.pdf`](./Credit_Card_Profitability_Framework_Report.pdf) | Full research report: dataset profiling, EDA findings, correlation analysis, term-sheet-derived economic reasoning, and term-by-term coefficient justification for the final framework. |
-| [`tech-support.ipynb`](./Exploratory_DA.ipynb) | Exploratory data analysis notebook — missingness structure, spend decomposition checks, Spearman correlation matrix, Pareto concentration curves, card-type segmentation, and exploratory modeling (PCA/GMM, proxy scoring, XGBoost ranker) that informed the final framework. |
+| [`Exploratory_DA.ipynb`](./Exploratory_DA.ipynb) | Exploratory data analysis notebook — missingness structure, spend decomposition checks, Spearman correlation matrix, Pareto concentration curves, card-type segmentation, and exploratory modeling (PCA/GMM, proxy scoring, XGBoost ranker) that informed the final framework. |
 
 ## Final Framework
 
