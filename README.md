@@ -70,12 +70,12 @@ Full derivations, the correlation evidence behind each design choice, and the te
 
 | Split | Score |
 |---|---|
-| Public leaderboard | 0.93 |
-| Private leaderboard | 0.93 |
+| Public leaderboard | 0.9284 |
+| Private leaderboard | 0.9301 |
 
 The agreement between public and private scores reflects the framework's closed-form structure — since the score is a deterministic function of input features rather than a fitted model, it carries no risk of overfitting to the public split.
 
 ## Reproducing
 
-1. Open `tech-support.ipynb` to reproduce the exploratory data analysis.
+1. Open `Exploratory_DA.ipynb` to reproduce the exploratory data analysis.
 2. Apply `build_score()` above to the raw dataset to reproduce the Round 1 submission scores.
