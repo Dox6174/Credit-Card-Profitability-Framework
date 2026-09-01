@@ -1,6 +1,6 @@
 # Credit-Card-Profitability-Framework
 
-An economically-grounded, closed-form profitability scoring framework built for a 500,000-row, 23-column Amex credit card dataset. Round 1 score: **0.93** on both the public and private leaderboards.
+An economically-grounded, closed-form profitability scoring framework built for a 500,000-row, 23-column Amex credit card dataset. Round 1 score: **0.929** on both the public and private leaderboards.
 
 Rather than fitting a black-box model to an unobserved profitability target, this project treats profitability as a deterministic accounting identity — revenue minus cost — so every coefficient in the final score is tied to a specific, interpretable economic mechanism rather than an opaque fitted weight.
 
@@ -68,7 +68,7 @@ Full derivations, the correlation evidence behind each design choice, and the te
 
 ## Result
 
-Overall Score: 0.93
+Overall Score: 0.929
 
 The agreement between public and private scores reflects the framework's closed-form structure — since the score is a deterministic function of input features rather than a fitted model, it carries no risk of overfitting to the public split.
 
